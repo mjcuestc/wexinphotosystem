@@ -11,9 +11,10 @@ using System;
 namespace MMPSystemManager.Migrations
 {
     [DbContext(typeof(MMPContext))]
-    partial class MMPContextModelSnapshot : ModelSnapshot
+    [Migration("20171124115718_new24")]
+    partial class new24
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
