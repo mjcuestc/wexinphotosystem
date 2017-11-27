@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace MMPSystemManager.Module
 {
-    public class Userinfo
+    public class UserInfo
     {
         [Key]
-        public Guid UserNumber { get; set; }         //编号
+        public string UserNumber { get; set; }         //编号
         public string UserName { get; set; }        //姓名
         public string UserWechatName { get; set; }        //微信号
         public string UserId { get; set; }          //身份证号
