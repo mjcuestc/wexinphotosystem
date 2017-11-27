@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace MMPSystemManager.Migrations
 {
-    public partial class @new : Migration
+    public partial class new1125 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -20,7 +20,7 @@ namespace MMPSystemManager.Migrations
                     AdminIdPict = table.Column<string>(nullable: true),
                     AdminLoginTime = table.Column<DateTime>(nullable: false),
                     AdminName = table.Column<string>(nullable: true),
-                    AdminOnline = table.Column<string>(nullable: true),
+                    AdminOnline = table.Column<bool>(nullable: false),
                     AdminPasswd = table.Column<string>(nullable: true),
                     AdminPicTime = table.Column<DateTime>(nullable: false),
                     AdminPicUpdateTime = table.Column<DateTime>(nullable: false),
@@ -36,13 +36,14 @@ namespace MMPSystemManager.Migrations
                 name: "Userinfos",
                 columns: table => new
                 {
-                    UserNumber = table.Column<string>(nullable: false),
+                    UserNumber = table.Column<Guid>(nullable: false),
                     Remark = table.Column<string>(nullable: true),
                     UserContactEmail = table.Column<string>(nullable: true),
                     UserContactPhone = table.Column<string>(nullable: true),
                     UserFacepict = table.Column<string>(nullable: true),
                     UserId = table.Column<string>(nullable: true),
                     UserName = table.Column<string>(nullable: true),
+                    UserPicTime = table.Column<DateTime>(nullable: false),
                     UserWechatName = table.Column<string>(nullable: true)
                 },
                 constraints: table =>

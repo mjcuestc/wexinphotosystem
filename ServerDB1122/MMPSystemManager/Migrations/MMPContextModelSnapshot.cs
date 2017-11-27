@@ -39,7 +39,7 @@ namespace MMPSystemManager.Migrations
 
                     b.Property<string>("AdminName");
 
-                    b.Property<string>("AdminOnline");
+                    b.Property<bool>("AdminOnline");
 
                     b.Property<string>("AdminPasswd");
 
@@ -58,7 +58,7 @@ namespace MMPSystemManager.Migrations
 
             modelBuilder.Entity("MMPSystemManager.Module.Userinfo", b =>
                 {
-                    b.Property<string>("UserNumber")
+                    b.Property<Guid>("UserNumber")
                         .ValueGeneratedOnAdd();
 
                     b.Property<string>("Remark");

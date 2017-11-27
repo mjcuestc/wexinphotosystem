@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MMPSystemManager.Module
 {
-    public class Admin
+    public class AdminBasic
     {      
         [Key]
         public string AdminNumber{ get; set; }    //编号
@@ -17,11 +17,8 @@ namespace MMPSystemManager.Module
         public string AdminPasswd { get; set; }       //密码
         public string AdminContactPhone { get; set; }        //联系电话
         public string AdminContactEmail { get; set; }        //联系邮箱
-        public string AdminOnline { get; set; }         //是否在线
         public string AdminPicture { get; set; }            //人脸图片
-        public DateTime  AdminPicTime { get; set; }         //人脸图片采集时间
-        public DateTime  AdminPicUpdateTime { get; set; }       //最新更新图片时间
-        public DateTime AdminLoginTime { get; set; }       //最近登录时间
+        public DateTime  AdminLogTime { get; set; }         //注册时间
         public string AdminIdPict { get; set; }             //身份证图片
         public string Remark { get; set; }              //备注
     }

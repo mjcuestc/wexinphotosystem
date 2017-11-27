@@ -19,7 +19,7 @@ namespace MMPSystemManager.DBContext
         
         public DbSet<Userinfo> Userinfos { get; set; }
         public DbSet<Userpicture> Userpictures { get; set; }
-        public DbSet<Admin> Admins { get; set; }
+        public DbSet<AdminBasic> Admins { get; set; }
     }
 
 }

@@ -11,8 +11,8 @@ using System;
 namespace MMPSystemManager.Migrations
 {
     [DbContext(typeof(MMPContext))]
-    [Migration("20171124115718_new24")]
-    partial class new24
+    [Migration("20171125021737_new1125")]
+    partial class new1125
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -40,7 +40,7 @@ namespace MMPSystemManager.Migrations
 
                     b.Property<string>("AdminName");
 
-                    b.Property<string>("AdminOnline");
+                    b.Property<bool>("AdminOnline");
 
                     b.Property<string>("AdminPasswd");
 
@@ -59,7 +59,7 @@ namespace MMPSystemManager.Migrations
 
             modelBuilder.Entity("MMPSystemManager.Module.Userinfo", b =>
                 {
-                    b.Property<string>("UserNumber")
+                    b.Property<Guid>("UserNumber")
                         .ValueGeneratedOnAdd();
 
                     b.Property<string>("Remark");

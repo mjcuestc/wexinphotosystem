@@ -13241,11 +13241,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\c#\\ServerDB1122\\MMPSystemManager\\MMPSystemManager.csproj",
+      "projectUniqueName": "E:\\c#\\ServerDB1124\\MMPSystemManager\\MMPSystemManager.csproj",
       "projectName": "MMPSystemManager",
-      "projectPath": "E:\\c#\\ServerDB1122\\MMPSystemManager\\MMPSystemManager.csproj",
+      "projectPath": "E:\\c#\\ServerDB1124\\MMPSystemManager\\MMPSystemManager.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\c#\\ServerDB1122\\MMPSystemManager\\obj\\",
+      "outputPath": "E:\\c#\\ServerDB1124\\MMPSystemManager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
