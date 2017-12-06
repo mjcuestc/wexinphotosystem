@@ -73,3 +73,14 @@ D:\Study\new\ServerDB1124\ServerDB1124\MMPSystemManager\obj\Debug\netcoreapp2.0\
 D:\Study\new\ServerDB1124\ServerDB1124\MMPSystemManager\obj\Debug\netcoreapp2.0\MMPSystemManager.AssemblyInfo.cs
 D:\Study\new\ServerDB1124\ServerDB1124\MMPSystemManager\obj\Debug\netcoreapp2.0\MMPSystemManager.dll
 D:\Study\new\ServerDB1124\ServerDB1124\MMPSystemManager\obj\Debug\netcoreapp2.0\MMPSystemManager.pdb
+F:\Github\wexinphotosystem\11.30 New version\ServerDB1124\MMPSystemManager\bin\Debug\netcoreapp2.0\MMPSystemManager.deps.json
+F:\Github\wexinphotosystem\11.30 New version\ServerDB1124\MMPSystemManager\bin\Debug\netcoreapp2.0\MMPSystemManager.runtimeconfig.json
+F:\Github\wexinphotosystem\11.30 New version\ServerDB1124\MMPSystemManager\bin\Debug\netcoreapp2.0\MMPSystemManager.runtimeconfig.dev.json
+F:\Github\wexinphotosystem\11.30 New version\ServerDB1124\MMPSystemManager\bin\Debug\netcoreapp2.0\MMPSystemManager.dll
+F:\Github\wexinphotosystem\11.30 New version\ServerDB1124\MMPSystemManager\bin\Debug\netcoreapp2.0\MMPSystemManager.pdb
+F:\Github\wexinphotosystem\11.30 New version\ServerDB1124\MMPSystemManager\obj\Debug\netcoreapp2.0\MMPSystemManager.csprojResolveAssemblyReference.cache
+F:\Github\wexinphotosystem\11.30 New version\ServerDB1124\MMPSystemManager\obj\Debug\netcoreapp2.0\MMPSystemManager.csproj.CoreCompileInputs.cache
+F:\Github\wexinphotosystem\11.30 New version\ServerDB1124\MMPSystemManager\obj\Debug\netcoreapp2.0\MMPSystemManager.AssemblyInfoInputs.cache
+F:\Github\wexinphotosystem\11.30 New version\ServerDB1124\MMPSystemManager\obj\Debug\netcoreapp2.0\MMPSystemManager.AssemblyInfo.cs
+F:\Github\wexinphotosystem\11.30 New version\ServerDB1124\MMPSystemManager\obj\Debug\netcoreapp2.0\MMPSystemManager.dll
+F:\Github\wexinphotosystem\11.30 New version\ServerDB1124\MMPSystemManager\obj\Debug\netcoreapp2.0\MMPSystemManager.pdb

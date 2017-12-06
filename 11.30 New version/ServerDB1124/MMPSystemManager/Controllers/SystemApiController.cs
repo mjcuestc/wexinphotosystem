@@ -29,62 +29,63 @@ namespace MMPSystemManager.Controllers
             IFormCollection req = Request.Form;
             StringValues id, passwd;
             System.Collections.Generic.ICollection<string> t3;
-
+            var tyu = HttpContext;
             t3 = req.Keys;
             string[] tt = new string[20];
             int i = 0;
-            foreach (string x in t3)
-            {
-                tt[i++] = x;
-            }
-            if (i  !=  2)
-                return false;
+            return false;
+            //foreach (string x in t3)
+            //{
+            //    tt[i++] = x;
+            //}
+            //if (i  !=  2)
+            //    return false;
 
-            req.TryGetValue(tt[0], out id);//ID
-            req.TryGetValue(tt[1], out passwd);//password
+            //req.TryGetValue(tt[0], out id);//ID
+            //req.TryGetValue(tt[1], out passwd);//password
 
-            if ((string.Compare(id, null) == 0) || (string.Compare(passwd, null) == 0))
-            {
-                return false;
-            }
-            bool tableempty = true;
-            foreach (var ty in _context.Admins)           
-            {
-                tableempty = false;
-                break;
-            }
-            if (tableempty)             //当管理员表为空时  登录账号 密码为SuperAdministrator SuperAdministrator
-            {
-                if ((string.Compare((string)id, "SuperAdministrator") == 0) && (string.Compare((string)passwd, "SuperAdministrator") == 0))
-                    return true;
-                else return false;
-            }
+            //if ((string.Compare(id, null) == 0) || (string.Compare(passwd, null) == 0))
+            //{
+            //    return false;
+            //}
+            //bool tableempty = true;
+            //foreach (var ty in _context.Admins)           
+            //{
+            //    tableempty = false;
+            //    break;
+            //}
+            //if (tableempty)             //当管理员表为空时  登录账号 密码为SuperAdministrator SuperAdministrator
+            //{
+            //    if ((string.Compare((string)id, "SuperAdministrator") == 0) && (string.Compare((string)passwd, "SuperAdministrator") == 0))
+            //        return true;
+            //    else return false;
+            //}
 
-            var db = _context.Admins.Find(id);
+            //var db = _context.Admins.Find(id);
 
-            if (db==null)
-                return false;
-            else
-            {
-                if (string.Compare(db.AdminPasswd, passwd) == 0)
-                {
-                    var linq = (from obj in _context.Admins
-                                where obj.AdminNumber == id
-                                select obj).SingleOrDefault();
+            //if (db==null)
+            //    return false;
+            //else
+            //{
+            //    if (string.Compare(db.AdminPasswd, passwd) == 0)
+            //    {
+            //        var linq = (from obj in _context.Admins
+            //                    where obj.AdminNumber == id
+            //                    select obj).SingleOrDefault();
 
-                    linq.AdminOnline = true;
-                    linq.AdminLoginTime = System.DateTime.Now;
+            //        linq.AdminOnline = true;
+            //        linq.AdminLoginTime = System.DateTime.Now;
 
-                    int row = _context.SaveChanges();
-                    if (row > 0)
-                    {
-                        return true;
-                    }
-                    else return false;
+            //        int row = _context.SaveChanges();
+            //        if (row > 0)
+            //        {
+            //            return true;
+            //        }
+            //        else return false;
 
-                }
-                else return false;
-            }
+            //    }
+            //    else return false;
+            //}
 
 
             //_context.SystemUsers.Add(destination);            //插入

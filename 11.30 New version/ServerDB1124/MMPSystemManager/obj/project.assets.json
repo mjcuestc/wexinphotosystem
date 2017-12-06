@@ -13232,7 +13232,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ChenJinjia\\.nuget\\packages\\": {},
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -13241,17 +13241,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Study\\new\\ServerDB1124\\ServerDB1124\\MMPSystemManager\\MMPSystemManager.csproj",
+      "projectUniqueName": "F:\\Github\\wexinphotosystem\\11.30 New version\\ServerDB1124\\MMPSystemManager\\MMPSystemManager.csproj",
       "projectName": "MMPSystemManager",
-      "projectPath": "D:\\Study\\new\\ServerDB1124\\ServerDB1124\\MMPSystemManager\\MMPSystemManager.csproj",
-      "packagesPath": "C:\\Users\\ChenJinjia\\.nuget\\packages\\",
-      "outputPath": "D:\\Study\\new\\ServerDB1124\\ServerDB1124\\MMPSystemManager\\obj\\",
+      "projectPath": "F:\\Github\\wexinphotosystem\\11.30 New version\\ServerDB1124\\MMPSystemManager\\MMPSystemManager.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "F:\\Github\\wexinphotosystem\\11.30 New version\\ServerDB1124\\MMPSystemManager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ChenJinjia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
